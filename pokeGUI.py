@@ -97,13 +97,3 @@ VS {self.poke2_name.capitalize()}",
         self.poke_pic1.config(bg = 'white')
         self.poke_pic2.config(bg = 'red')
     
-    # # Pending
-    # @property
-    # def reveal_winner(self):
-    #     return self.pokemon_winner
-
-    # # Pending
-    # @reveal_winner.setter
-    # def reveal_winner(self, winner):
-    #     self.pokemon_winner = winner
-    #     self.start_battle_btn.config(text = 'Play Again?')

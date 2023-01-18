@@ -80,7 +80,7 @@ class Pokemon:
             pd.delay_print(" It was not very effective...")
             # Reduce defender's HP by the attack's damage points
             defender._hp -= attack_dp
-
+        # If the pokemon faint 
         if defender._hp <= 0:
             defender._hp = 0
             defender._win = False
@@ -92,6 +92,7 @@ class Pokemon:
             pd.delay_print("\n\n..." + attacker._name \
                 + " Return ... Well Done! \n")
         else:
+            # Display remaining HP of the pokemon
             pd.delay_print(f" {defender._name} \
 has {int(defender._hp)} HP left\n\n")
 

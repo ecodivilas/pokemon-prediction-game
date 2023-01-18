@@ -34,6 +34,7 @@ def start_game(pm1, pm2, chosen_pokemon):
     while pm1.hp > 0 and pm2.hp > 0:
 
         pd.clear_screen()
+        # This will show the current status of each pokemon every turn
         pd.pokemon_battle_board(pm1, pm2)
         if change_turn == 1:
             first_turn.attack(first_turn, second_turn)
@@ -46,12 +47,7 @@ def start_game(pm1, pm2, chosen_pokemon):
     pd.clear_screen()
     pd.pokemon_battle_board(pm1, pm2)
 
-    # Pending
-    # if pm1._win == True:
-    #     reveal_winner(pm1._name)
-    # else:
-    #     reveal_winner(pm2._name)
-
+    # Print if you win or lose
     if chosen_pokemon._win == True:
         print("\nYou Win!")
     else:
