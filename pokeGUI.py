@@ -11,7 +11,7 @@ class GUI:
         # Setting up a Tkinter GUI
         self.root = tk.Tk()
         self.root.geometry("400x200")
-        self.root.title("Pokemon Tournament Betting")
+        self.root.title("Pokemon Prediction Game")
         self.root.iconbitmap("src/pokemon.ico")
 
         # Initialization of variables inside this class

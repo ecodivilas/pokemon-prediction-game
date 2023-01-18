@@ -10,7 +10,7 @@ def clear_screen():
     # Clear screen to avoid distraction
     os.system('cls||clear')
     # Use the FigletFont class to create a Beautiful Header
-    print(pfg.figlet_format('Pokemon Tournament',
+    print(pfg.figlet_format('Pokemon Prediction Game',
                             font="slant",
                             justify="left",
                             width=150

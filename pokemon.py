@@ -1,4 +1,4 @@
-# Pokemon
+# Pokemon Prediction Game
 # By: Ely
 
 from time import sleep
