@@ -1,7 +1,0 @@
-{"name":"Pikachu",
-"shortname":"pikachu",
-"hp":160,
-"info":{"id":25,"type":"electric","weakness":"ground","description":"Melissa's favorite Pokemon! When several Pikachu gather, their electricity could build and cause lightning storms."},
-"images":{"photo":"images\/pikachu.jpg","typeIcon":"icons\/electric.jpg","weaknessIcon":"icons\/ground.jpg"},
-"moves":[{"name":"Growl","type":"normal"},{"name":"Quick Attack","dp":40,"type":"normal"},
-{"name":"Thunderbolt","dp":90,"type":"electric"}]}

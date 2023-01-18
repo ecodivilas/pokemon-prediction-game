@@ -11,7 +11,7 @@ def get_pokemon_png(poke_name):
     if res.status_code == 200:
             raw_data = res.content
             im = Image.open(BytesIO(raw_data))
-            return ImageTk.PhotoImage(im)           #        <============ Return
+            return ImageTk.PhotoImage(im)
             
     # print(res) # 400 Error failed
     else:
